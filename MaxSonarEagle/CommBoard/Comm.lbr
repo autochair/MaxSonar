@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.0">
+<eagle version="8.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -240,6 +240,13 @@
 <pin name="TX" x="5.08" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="+5" x="5.08" y="7.62" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="GND" x="5.08" y="10.16" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<text x="-5.08" y="10.16" size="1.27" layer="94">GND</text>
+<text x="-5.08" y="7.62" size="1.27" layer="94">+5</text>
+<text x="-5.08" y="5.08" size="1.27" layer="94">TX</text>
+<text x="-5.08" y="2.54" size="1.27" layer="94">RX</text>
+<text x="-5.08" y="0" size="1.27" layer="94">AN</text>
+<text x="-5.08" y="-2.54" size="1.27" layer="94">PW</text>
+<text x="-5.08" y="-5.08" size="1.27" layer="94">BW</text>
 </symbol>
 </symbols>
 <devicesets>
