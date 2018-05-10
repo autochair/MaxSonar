@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.5.2">
+<eagle version="9.0.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8,22 +8,22 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -32,8 +32,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -41,19 +41,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -2969,6 +2969,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="H2" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
 <part name="H3" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
 <part name="H4" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
+<part name="R20" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value="10k"/>
+<part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="R21" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value="10k"/>
+<part name="R22" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value="10k"/>
+<part name="R23" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value="10k"/>
+<part name="R24" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value="10k"/>
+<part name="R25" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value="10k"/>
+<part name="R26" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value="10k"/>
+<part name="R27" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value="10k"/>
 </parts>
 <sheets>
 <sheet>
@@ -3081,6 +3090,15 @@ sonar per input command from the IOTX line</text>
 <instance part="H2" gate="G$1" x="406.4" y="91.44"/>
 <instance part="H3" gate="G$1" x="398.78" y="86.36"/>
 <instance part="H4" gate="G$1" x="406.4" y="86.36"/>
+<instance part="R20" gate="G$1" x="160.02" y="190.5" rot="R90"/>
+<instance part="GND6" gate="1" x="160.02" y="7.62"/>
+<instance part="R21" gate="G$1" x="154.94" y="180.34" rot="R90"/>
+<instance part="R22" gate="G$1" x="149.86" y="165.1" rot="R90"/>
+<instance part="R23" gate="G$1" x="144.78" y="139.7" rot="R90"/>
+<instance part="R24" gate="G$1" x="142.24" y="114.3" rot="R90"/>
+<instance part="R25" gate="G$1" x="139.7" y="86.36" rot="R90"/>
+<instance part="R26" gate="G$1" x="137.16" y="63.5" rot="R90"/>
+<instance part="R27" gate="G$1" x="132.08" y="35.56" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -3441,6 +3459,46 @@ sonar per input command from the IOTX line</text>
 <wire x1="22.86" y1="182.88" x2="25.4" y2="182.88" width="0.1524" layer="91"/>
 <label x="25.4" y="182.88" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="R20" gate="G$1" pin="1"/>
+<pinref part="GND6" gate="1" pin="GND"/>
+<wire x1="160.02" y1="10.16" x2="160.02" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="R27" gate="G$1" pin="1"/>
+<wire x1="160.02" y1="12.7" x2="160.02" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="53.34" x2="160.02" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="78.74" x2="160.02" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="104.14" x2="160.02" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="132.08" x2="160.02" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="152.4" x2="160.02" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="170.18" x2="160.02" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="30.48" x2="132.08" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="12.7" x2="160.02" y2="12.7" width="0.1524" layer="91"/>
+<junction x="160.02" y="12.7"/>
+<pinref part="R26" gate="G$1" pin="1"/>
+<wire x1="137.16" y1="58.42" x2="137.16" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="53.34" x2="160.02" y2="53.34" width="0.1524" layer="91"/>
+<junction x="160.02" y="53.34"/>
+<pinref part="R25" gate="G$1" pin="1"/>
+<wire x1="139.7" y1="81.28" x2="139.7" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="78.74" x2="160.02" y2="78.74" width="0.1524" layer="91"/>
+<junction x="160.02" y="78.74"/>
+<pinref part="R24" gate="G$1" pin="1"/>
+<wire x1="142.24" y1="109.22" x2="142.24" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="104.14" x2="160.02" y2="104.14" width="0.1524" layer="91"/>
+<junction x="160.02" y="104.14"/>
+<pinref part="R23" gate="G$1" pin="1"/>
+<wire x1="144.78" y1="134.62" x2="144.78" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="132.08" x2="160.02" y2="132.08" width="0.1524" layer="91"/>
+<junction x="160.02" y="132.08"/>
+<pinref part="R22" gate="G$1" pin="1"/>
+<wire x1="149.86" y1="160.02" x2="149.86" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="152.4" x2="160.02" y2="152.4" width="0.1524" layer="91"/>
+<junction x="160.02" y="152.4"/>
+<pinref part="R21" gate="G$1" pin="1"/>
+<wire x1="154.94" y1="175.26" x2="154.94" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="170.18" x2="160.02" y2="170.18" width="0.1524" layer="91"/>
+<junction x="160.02" y="170.18"/>
+</segment>
 </net>
 <net name="N$2" class="0">
 <segment>
@@ -3591,8 +3649,12 @@ sonar per input command from the IOTX line</text>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="RX"/>
-<wire x1="101.6" y1="198.12" x2="104.14" y2="198.12" width="0.1524" layer="91"/>
-<label x="104.14" y="198.12" size="1.27" layer="95" xref="yes"/>
+<wire x1="101.6" y1="198.12" x2="160.02" y2="198.12" width="0.1524" layer="91"/>
+<label x="162.56" y="198.12" size="1.27" layer="95" xref="yes"/>
+<pinref part="R20" gate="G$1" pin="2"/>
+<wire x1="160.02" y1="198.12" x2="162.56" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="195.58" x2="160.02" y2="198.12" width="0.1524" layer="91"/>
+<junction x="160.02" y="198.12"/>
 </segment>
 <segment>
 <pinref part="Q2" gate="G$1" pin="E"/>
@@ -3634,10 +3696,14 @@ sonar per input command from the IOTX line</text>
 <segment>
 <pinref part="U$1" gate="G$1" pin="TX"/>
 <wire x1="101.6" y1="200.66" x2="121.92" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="200.66" x2="121.92" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="200.66" x2="121.92" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="RX"/>
+<wire x1="121.92" y1="185.42" x2="121.92" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="172.72" x2="101.6" y2="172.72" width="0.1524" layer="91"/>
 <label x="121.92" y="187.96" size="1.27" layer="95" xref="yes"/>
+<pinref part="R21" gate="G$1" pin="2"/>
+<wire x1="154.94" y1="185.42" x2="121.92" y2="185.42" width="0.1524" layer="91"/>
+<junction x="121.92" y="185.42"/>
 </segment>
 <segment>
 <pinref part="S2" gate="A" pin="2"/>
@@ -3671,10 +3737,14 @@ sonar per input command from the IOTX line</text>
 <segment>
 <pinref part="U$2" gate="G$1" pin="TX"/>
 <wire x1="101.6" y1="175.26" x2="119.38" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="175.26" x2="119.38" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="175.26" x2="119.38" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="RX"/>
+<wire x1="119.38" y1="170.18" x2="119.38" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="147.32" x2="101.6" y2="147.32" width="0.1524" layer="91"/>
 <label x="119.38" y="162.56" size="1.27" layer="95" xref="yes"/>
+<pinref part="R22" gate="G$1" pin="2"/>
+<wire x1="149.86" y1="170.18" x2="119.38" y2="170.18" width="0.1524" layer="91"/>
+<junction x="119.38" y="170.18"/>
 </segment>
 <segment>
 <pinref part="S2" gate="A" pin="3"/>
@@ -3708,10 +3778,14 @@ sonar per input command from the IOTX line</text>
 <segment>
 <pinref part="U$3" gate="G$1" pin="TX"/>
 <wire x1="101.6" y1="149.86" x2="121.92" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="149.86" x2="121.92" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="149.86" x2="121.92" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="G$1" pin="RX"/>
+<wire x1="121.92" y1="144.78" x2="121.92" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="121.92" x2="101.6" y2="121.92" width="0.1524" layer="91"/>
 <label x="121.92" y="137.16" size="1.27" layer="95" xref="yes"/>
+<pinref part="R23" gate="G$1" pin="2"/>
+<wire x1="144.78" y1="144.78" x2="121.92" y2="144.78" width="0.1524" layer="91"/>
+<junction x="121.92" y="144.78"/>
 </segment>
 <segment>
 <pinref part="S2" gate="A" pin="4"/>
@@ -3745,10 +3819,14 @@ sonar per input command from the IOTX line</text>
 <segment>
 <pinref part="U$4" gate="G$1" pin="TX"/>
 <wire x1="101.6" y1="124.46" x2="119.38" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="124.46" x2="119.38" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="124.46" x2="119.38" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="U$5" gate="G$1" pin="RX"/>
+<wire x1="119.38" y1="119.38" x2="119.38" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="96.52" x2="101.6" y2="96.52" width="0.1524" layer="91"/>
 <label x="119.38" y="111.76" size="1.27" layer="95" xref="yes"/>
+<pinref part="R24" gate="G$1" pin="2"/>
+<wire x1="142.24" y1="119.38" x2="119.38" y2="119.38" width="0.1524" layer="91"/>
+<junction x="119.38" y="119.38"/>
 </segment>
 <segment>
 <pinref part="S2" gate="A" pin="5"/>
@@ -3782,10 +3860,14 @@ sonar per input command from the IOTX line</text>
 <segment>
 <pinref part="U$5" gate="G$1" pin="TX"/>
 <wire x1="101.6" y1="99.06" x2="121.92" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="99.06" x2="121.92" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="99.06" x2="121.92" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="U$6" gate="G$1" pin="RX"/>
+<wire x1="121.92" y1="91.44" x2="121.92" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="71.12" x2="101.6" y2="71.12" width="0.1524" layer="91"/>
 <label x="121.92" y="86.36" size="1.27" layer="95" xref="yes"/>
+<pinref part="R25" gate="G$1" pin="2"/>
+<wire x1="139.7" y1="91.44" x2="121.92" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="91.44" x2="121.92" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="S2" gate="A" pin="6"/>
@@ -3819,10 +3901,14 @@ sonar per input command from the IOTX line</text>
 <segment>
 <pinref part="U$6" gate="G$1" pin="TX"/>
 <wire x1="101.6" y1="73.66" x2="119.38" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="73.66" x2="119.38" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="73.66" x2="119.38" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="U$7" gate="G$1" pin="RX"/>
+<wire x1="119.38" y1="68.58" x2="119.38" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="45.72" x2="101.6" y2="45.72" width="0.1524" layer="91"/>
 <label x="119.38" y="60.96" size="1.27" layer="95" xref="yes"/>
+<pinref part="R26" gate="G$1" pin="2"/>
+<wire x1="137.16" y1="68.58" x2="119.38" y2="68.58" width="0.1524" layer="91"/>
+<junction x="119.38" y="68.58"/>
 </segment>
 <segment>
 <pinref part="S2" gate="A" pin="7"/>
@@ -3856,10 +3942,14 @@ sonar per input command from the IOTX line</text>
 <segment>
 <pinref part="U$7" gate="G$1" pin="TX"/>
 <wire x1="101.6" y1="48.26" x2="121.92" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="48.26" x2="121.92" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="48.26" x2="121.92" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="U$8" gate="G$1" pin="RX"/>
+<wire x1="121.92" y1="40.64" x2="121.92" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="20.32" x2="101.6" y2="20.32" width="0.1524" layer="91"/>
 <label x="121.92" y="35.56" size="1.27" layer="95" xref="yes"/>
+<pinref part="R27" gate="G$1" pin="2"/>
+<wire x1="132.08" y1="40.64" x2="121.92" y2="40.64" width="0.1524" layer="91"/>
+<junction x="121.92" y="40.64"/>
 </segment>
 <segment>
 <pinref part="S2" gate="A" pin="8"/>
